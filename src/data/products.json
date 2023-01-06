@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Chanel no5",
+        "price": 80,
+        "description": "lorem ipsum gdg fsr yt yfs ferf xdf ste gd vsf erd",
+        "imageUrl": "/products/p-chanel.png"
+    },
+    {
+        "id": 2,
+        "title": "Shalimar",
+        "price": 120,
+        "description": "lorem ipsum gdg fsr yt yfs ferf xdf ste gd vsf erd",
+        "imageUrl": "/products/p-shalimarr.png"
+    },
+    {
+        "id": 3,
+        "title": "Guelriann",
+        "price": 60,
+        "description": "lorem ipsum gdg fsr yt yfs ferf xdf ste gd vsf erd",
+        "imageUrl": "/products/p-guelriann.png"
+    },
+    {
+        "id": 4,
+        "title": "Miracle",
+        "price": 95,
+        "description": "lorem ipsum gdg fsr yt yfs ferf xdf ste gd vsf erd",
+        "imageUrl": "/products/miracle.png"
+    },
+    {
+        "id": 5,
+        "title": "Chanel no5",
+        "price": 80,
+        "description": "lorem ipsum gdg fsr yt yfs ferf xdf ste gd vsf erd",
+        "imageUrl": "/products/p-chanel.png"
+    },
+    {
+        "id": 6,
+        "title": "Guelriann",
+        "price": 60,
+        "description": "lorem ipsum gdg fsr yt yfs ferf xdf ste gd vsf erd",
+        "imageUrl": "/products/p-guelriann.png"
+    }
+]

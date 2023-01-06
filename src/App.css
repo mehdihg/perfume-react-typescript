@@ -1,0 +1,17 @@
+.cart-menu {
+  position: fixed !important;
+
+  right: 0 !important;
+
+  bottom: 0 !important;
+  background-color: white !important;
+  z-index: 25 !important;
+  height: calc(100vh - 75px) !important;
+  transition: all 1s !important;
+}
+.cart-menu.open {
+  left: 75% !important;
+}
+.cart-menu.close {
+  left: 100% !important;
+}

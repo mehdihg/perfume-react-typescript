@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Lora";
+  src: local("Lora"),
+    url("./fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+}
+#root {
+  background-color: white !important;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+html,
+body,
+* {
+  font-family: "Lora", cursive !important;
+}
+body,
+html {
+  background-color: white !important;
+}

@@ -1,0 +1,21 @@
+.slider-img{
+
+    height:calc(100vh - 75px)   !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position :center !important;
+    
+}
+.slider-caption{
+    z-index: 2;
+}
+.black-layout{
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    z-index: 0 !important;
+
+}

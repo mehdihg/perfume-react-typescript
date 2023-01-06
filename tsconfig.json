@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "no-restricted-imports": "off",
+"@typescript-eslint/no-restricted-imports": [
+  "warn",
+  {
+    "name": "react-redux",
+    "importNames": ["useSelector", "useDispatch"],
+    "message": "Use typed hooks `useAppDispatch` and `useAppSelector` instead."
+  }
+],
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+  
+}

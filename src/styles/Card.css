@@ -1,0 +1,9 @@
+.card-carousel-img{
+    width: 330px !important;
+}
+
+@media screen and (max-width:768px) {
+    .card-carousel-img{
+        width: 100% !important;
+    }
+}
