@@ -38,11 +38,7 @@ export const Navbar = () => {
                 Store
               </Nav.Link>
             </NavItem>
-            <NavItem as={"li"}>
-              <Nav.Link as={NavLink} to="/about">
-                About
-              </Nav.Link>
-            </NavItem>
+
           </Nav>
 
           <Button

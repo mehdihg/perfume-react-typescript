@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import leftTopImg from "../assets/btright.jpg";
+import leftTopImg from "../assets/btrightt.jpg";
 import leftBottomImg from "../assets/btleft.jpg";
 import middle from "../assets/middle.jpg";
 import rightTopImg from "../assets/glow.jpg";

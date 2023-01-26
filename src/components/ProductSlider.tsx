@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
 import products from "../data/products.json";
 import { CardMotion } from "../utils/CardMotion";
-import { useContext, useRef } from "react";
+import { useRef } from "react";
 
 const responsive = {
   superLargeDesktop: {
@@ -25,7 +25,7 @@ const responsive = {
   },
 };
 const ProductSlider = () => {
-  const scrollRef = useRef(null);
+  const scrollRef: React.MutableRefObject<null> = useRef(null);
   return (
     <Container>
       <h2 style={{ textAlign: "center" }} className="mb-5 products-title">
